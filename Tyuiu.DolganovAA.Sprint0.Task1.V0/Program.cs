@@ -1,14 +1,13 @@
-﻿namespace Tyuiu.DolganovAA.Sprint0.Task1.V0
+﻿namespace Tyuiu.DolganovAA.Sprint0.Task1.V0;
+
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello , World");
-            string name = "Александр";
-            int age = 17;
-            Console.WriteLine("Здравствуйте , моё имя " + name + " , и мне " + age + " лет");
-            Console.ReadKey();
-        }
+        Console.WriteLine("Hello, World!");
+        string name = "Александр";
+        int age = 17;
+        Console.WriteLine("Привет меня зовут " + name + " и мне " + age + " лет !");
+        Console.ReadKey();
     }
 }
