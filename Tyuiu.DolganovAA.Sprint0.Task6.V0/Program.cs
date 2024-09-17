@@ -13,7 +13,7 @@ namespace Tyuiu.DolganovAA.Sprint0.Task6.V0
 
             Console.WriteLine("Произведение элементов массива =" + DataService.MultiplicationArray(numsArray));
 
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

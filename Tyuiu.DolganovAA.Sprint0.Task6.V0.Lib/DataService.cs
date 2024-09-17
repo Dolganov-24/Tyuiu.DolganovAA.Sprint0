@@ -36,7 +36,7 @@
             }
             while (index < numbers.Length);
 
-            return total;
+            return total; 
         }
     }
 }
